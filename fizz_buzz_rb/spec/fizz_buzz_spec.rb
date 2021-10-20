@@ -2,7 +2,7 @@ describe FizzBuzz do
   subject { FizzBuzz.new }
 
   it 'is expected to return a integer if non of the game rules apply' do
-    expect(subject.check(1).class).to eq(Integer)
+    expect(subject.check(1)).to eq(1)
   end
 
   it 'is expected that 3 will return fizz' do
