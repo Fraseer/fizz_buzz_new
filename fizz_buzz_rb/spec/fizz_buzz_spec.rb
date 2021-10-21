@@ -8,14 +8,14 @@ describe FizzBuzz do
   end
 
   it 'is expected that 3 will return fizz' do
-    expect(subject.check3).to eq 'fizz'
+    expect(subject.check3).to eq 'Fizz'
   end
 
   it 'is expected that 5 will return buzz' do
-    expect(subject.check5).to eq 'buzz'
+    expect(subject.check5).to eq 'Buzz'
   end
 
   it 'is expected that 15 will return fizz-buzz' do
-    expect(subject.check15).to eq 'fizz-buzz'
+    expect(subject.check15).to eq 'Fizz-Buzz'
   end
 end
